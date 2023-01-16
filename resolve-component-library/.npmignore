@@ -1,0 +1,13 @@
+.github
+.storybook
+scripts
+src
+tests
+.nvmrc
+.eslintrc.js
+.prettier*
+jest.setup.ts
+tsconfig*
+
+*.spec.*
+*.stories.*

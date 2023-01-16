@@ -1,0 +1,13 @@
+import React from 'react';
+import { Meta, Story } from '@storybook/react';
+import { {{name}}, {{name}}Props } from './{{name}}';
+
+export default {
+  component: {{name}},
+  subcomponents: {},
+  title: 'Design System/{{name}}',
+} as Meta<{{name}}Props>;
+
+const Template: Story<{{name}}Props> = (props) => <{{name}} {...props} />;
+
+export const Default = Template.bind({});

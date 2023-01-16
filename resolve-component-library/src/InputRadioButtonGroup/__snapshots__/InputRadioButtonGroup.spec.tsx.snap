@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputRadioButtonGroup renders correctly for simple type 1`] = `
+<div>
+  <div
+    aria-labelledby="headlessui-label-1"
+    id="headlessui-radiogroup-8"
+    role="radiogroup"
+  >
+    <label
+      class="mb-4 inline-block text-base font-medium leading-6"
+      id="headlessui-label-1"
+      role="none"
+    >
+      Example of Label
+    </label>
+    <div
+      class="-space-y-px bg-white"
+      role="none"
+    >
+      <div
+        aria-checked="true"
+        aria-describedby="headlessui-description-3"
+        aria-labelledby="headlessui-label-2"
+        class="relative flex cursor-pointer p-4 focus:outline-none"
+        data-headlessui-state="checked"
+        id="headlessui-radiogroup-option-4"
+        role="radio"
+        tabindex="0"
+      >
+        <span
+          aria-hidden="true"
+          class="mt-0.5 flex h-4 w-4 shrink-0 cursor-pointer items-center justify-center rounded-full border border-transparent bg-indigo-600 ring-2 ring-indigo-500 ring-offset-2"
+        >
+          <span
+            class="h-1.5 w-1.5 rounded-full bg-white"
+          />
+        </span>
+        <div
+          class="ml-3 flex flex-col"
+        >
+          <span
+            class="block text-sm font-medium"
+            id="headlessui-label-2"
+          >
+            This is a label
+          </span>
+          <span
+            class="block text-sm font-normal text-gray-500"
+            id="headlessui-description-3"
+          >
+            This is a description
+          </span>
+        </div>
+      </div>
+      <div
+        aria-checked="false"
+        aria-describedby="headlessui-description-6"
+        aria-labelledby="headlessui-label-5"
+        class="relative flex cursor-pointer p-4 focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-radiogroup-option-7"
+        role="radio"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          class="mt-0.5 flex h-4 w-4 shrink-0 cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white"
+        >
+          <span
+            class="h-1.5 w-1.5 rounded-full bg-white"
+          />
+        </span>
+        <div
+          class="ml-3 flex flex-col"
+        >
+          <span
+            class="block text-sm font-medium"
+            id="headlessui-label-5"
+          >
+            This is another label
+          </span>
+          <span
+            class="block text-sm font-normal text-gray-500"
+            id="headlessui-description-6"
+          >
+            And this is another one
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InputRadioButtonGroup renders correctly for table type 1`] = `
+<div>
+  <div
+    aria-labelledby="headlessui-label-10"
+    id="headlessui-radiogroup-9"
+    role="radiogroup"
+  >
+    <label
+      class="mb-4 inline-block text-base font-medium leading-6"
+      id="headlessui-label-10"
+      role="none"
+    >
+      Example of Label
+    </label>
+    <div
+      class="-space-y-px bg-white"
+      role="none"
+    >
+      <div
+        aria-checked="true"
+        aria-describedby="headlessui-description-13"
+        aria-labelledby="headlessui-label-12"
+        class="relative flex cursor-pointer p-4 focus:outline-none border z-popover border-indigo-200 bg-indigo-50"
+        data-headlessui-state="checked"
+        id="headlessui-radiogroup-option-11"
+        role="radio"
+        tabindex="0"
+      >
+        <span
+          aria-hidden="true"
+          class="mt-0.5 flex h-4 w-4 shrink-0 cursor-pointer items-center justify-center rounded-full border border-transparent bg-indigo-600 ring-2 ring-indigo-500 ring-offset-2"
+        >
+          <span
+            class="h-1.5 w-1.5 rounded-full bg-white"
+          />
+        </span>
+        <div
+          class="ml-3 flex flex-col"
+        >
+          <span
+            class="block text-sm font-medium text-indigo-900"
+            id="headlessui-label-12"
+          >
+            This is a label
+          </span>
+          <span
+            class="block text-sm font-normal text-indigo-700"
+            id="headlessui-description-13"
+          >
+            This is a description
+          </span>
+        </div>
+      </div>
+      <div
+        aria-checked="false"
+        aria-describedby="headlessui-description-16"
+        aria-labelledby="headlessui-label-15"
+        class="relative flex cursor-pointer p-4 focus:outline-none border border-gray-200"
+        data-headlessui-state=""
+        id="headlessui-radiogroup-option-14"
+        role="radio"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          class="mt-0.5 flex h-4 w-4 shrink-0 cursor-pointer items-center justify-center rounded-full border border-gray-300 bg-white"
+        >
+          <span
+            class="h-1.5 w-1.5 rounded-full bg-white"
+          />
+        </span>
+        <div
+          class="ml-3 flex flex-col"
+        >
+          <span
+            class="block text-sm font-medium text-gray-900"
+            id="headlessui-label-15"
+          >
+            This is another label
+          </span>
+          <span
+            class="block text-sm font-normal text-gray-500"
+            id="headlessui-description-16"
+          >
+            And this is another one
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

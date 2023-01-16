@@ -1,0 +1,36 @@
+{
+    "roots": [
+        "<rootDir>/src"
+    ],
+    "preset": "ts-jest",
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": [
+        "<rootDir>/jest.setup.ts"
+    ],
+    "transform": {
+        "^.+\\.(js|jsx|ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+        "**/*.(test|spec).(ts|tsx|js|jsx)"
+    ],
+    "moduleFileExtensions": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx"
+    ],
+    "moduleDirectories": [
+        "node_modules",
+        "src"
+    ],
+    "unmockedModulePathPatterns": [
+        "react",
+        "react-dom"
+    ],
+    "moduleNameMapper": {
+        "^.+\\.(css|scss|less)$": "<rootDir>/src/__mocks__/styles.js"
+    },
+    "transformIgnorePatterns": [
+        "/node_modules/(?!@react-hook)"
+    ]
+}

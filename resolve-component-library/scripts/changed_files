@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#
+# Get list of changed files comparing local changes to a base ref.
+# It gets changes between the two commits with merge-base.
+# The base ref is defined with the BASE_REF env var
+# The default base ref is origin/master
+
+BASE_REF=${BASE_REF:-origin/master}
+BASE_COMMIT=$(git merge-base "$BASE_REF" HEAD)
+
+staged_files=$(git diff --name-only "$BASE_COMMIT" --diff-filter=ACdMRtuxb -- 'src/*.js' 'src/*.jsx' 'src/*.ts' 'src/*.tsx')
+unstaged_files=$(git ls-files --others --exclude-standard -- 'src/*.js' 'src/*.jsx' 'src/*.ts' 'src/*.tsx')
+
+changed_files=$staged_files
+[ -n "$unstaged_files" ] && changed_files="$staged_files"$'\n'"$unstaged_files"
+
+echo "$changed_files"

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner renders as centered 1`] = `
+<div>
+  <div
+    class="flex w-full items-center gap-x-2.5 bg-yellow-50 p-1.5 justify-center"
+    role="alert"
+  >
+    <span
+      class="h-5 w-5 text-yellow-400"
+    >
+      <div>
+        a icon
+      </div>
+    </span>
+    <span
+      class="text-sm font-medium text-yellow-800"
+    >
+      This is a banner message
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Banner renders as floating 1`] = `
+<div>
+  <div
+    class="flex w-full items-center gap-x-2.5 bg-yellow-50 rounded-md border border-yellow-100 p-3"
+    role="alert"
+  >
+    <span
+      class="h-5 w-5 text-yellow-400"
+    >
+      <div>
+        a icon
+      </div>
+    </span>
+    <span
+      class="text-sm font-medium text-yellow-800"
+    >
+      This is a banner message
+    </span>
+  </div>
+</div>
+`;

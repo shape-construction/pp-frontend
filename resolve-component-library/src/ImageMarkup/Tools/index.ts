@@ -1,0 +1,9 @@
+export { ColorTool as Color } from './ColorTool';
+export { PencilTool as Pencil } from './PencilTool';
+export { RedoTool as Redo } from './RedoTool';
+export { UndoTool as Undo } from './UndoTool';
+export { TextTool as Text } from './TextTool';
+export { SquareTool as Square } from './SquareTool';
+export { SelectTool as Select } from './SelectTool';
+export { CircleTool as Circle } from './CircleTool';
+export { ArrowTool as Arrow } from './ArrowTool';
