@@ -1,4 +1,4 @@
-# Pair Programming Challenge: Creating a Tab Component
+# Pair Programming Session: Creating a Tab Component
 Field is an issue tracking application for the construction industry. Inside the app users can set up construction projects, raise, discuss and resolve issues on site.
 
 A key part of our navigation uses tabs to navigate between different screens. This challenge is to create a component that allows us to reuse our tabs in different places. We will be creating a component inside our component library (see below) that accepts an array of screens and a default screen. The component will render the tabs and allow the user to click on each one rendering the correct component for each.
