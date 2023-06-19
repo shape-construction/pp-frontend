@@ -17,9 +17,9 @@ We’ll create a new component, called `SpecialTabs`, that Shape engineers could
 - Has unit tests. We use `jest` and `react-testing-library`
 - Closely matches the design below. You can use Tailwind to achieve that.
 
-A working example is shown below:
+A working example is shown below (and a video [here](https://user-images.githubusercontent.com/5408699/212675845-81a5d52f-8b24-4eb3-a2d6-99e6c1a47339.mov)):
 
-https://user-images.githubusercontent.com/5408699/212675845-81a5d52f-8b24-4eb3-a2d6-99e6c1a47339.mov
+![example](./example.png)
 
 ## Getting started with Resolve Component Library
 
